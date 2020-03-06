@@ -1,0 +1,148 @@
+.icones-footer {
+    height: 25px !important;
+}
+
+.font-noto {
+    font-family: 'Noto Sans CJK JP Bold', sans-serif;
+}
+
+.fundo-azul {
+    background-color: #005975 !important;
+}
+
+.fundo-azul-escuro {
+    background-color: #002e40 !important;
+}
+
+.espaco {
+    padding-left: 5px
+}
+
+.espaco-header {
+    padding-top: 0px !important;
+}
+
+.font-carrosel {
+    text-shadow: #000 -2px -2px
+}
+
+.imagem-carrosel {
+    object-fit: cover !important;
+    height: 280px !important;
+}
+
+.imagem-card-home {
+    object-fit: cover !important;
+    height: 200px !important;
+    width: 400px !important;
+
+}
+
+
+.footer-copyright {
+    padding: 1px !important;
+    font-size: small
+}
+
+.tamanho-container-cards {
+    height: 150px;
+}
+
+
+/*card carrousel*/
+
+/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex !important;
+    flex: 1 0 auto !important;
+}
+
+.row-equal .card {
+    width: 100% !important;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner > .row-equal.active,
+.carousel-inner > .row-equal.next,
+.carousel-inner > .row-equal.prev {
+    display: flex !important;
+}
+
+/* prevent flicker during transition */
+.carousel-inner > .row-equal.active.left,
+.carousel-inner > .row-equal.active.right {
+    opacity: 0.5 !important;
+    display: flex !important;
+}
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 150px !important;
+    overflow: hidden !important;
+}
+
+
+/*linha de indicadores de infllação*/
+
+.latest-news-section {
+    overflow: hidden;
+    display: block;
+    clear: both;
+    background: #131313;
+    position: relative;
+    padding-top: 10px;
+}
+
+.ln-title {
+    position: absolute;
+    height: 100%;
+    width: 29%;
+    left: 0;
+    top: 0;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background: #ffb320;
+    z-index: 1;
+}
+
+.news-ticker {
+    width: 71%;
+    float: right;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.news-ticker-contant .nt-item {
+    margin-right: 35px;
+    color: #fff;
+    display: inline-block;
+}
+
+.news-ticker-contant .nt-item span {
+    margin-right: 35px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    padding: 4px 20px;
+}
+
+.news-ticker-contant .nt-item span.new {
+    background: #ff205f;
+}
+
+.news-ticker-contant .nt-item span.strategy {
+    background: #4eae60;
+}
+
+.news-ticker-contant .nt-item span.racing {
+    background: #694eae;
+}
+
+
+
